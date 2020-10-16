@@ -3,8 +3,13 @@ import React from 'react';
 function SummaryPage() {
   return (
     <div>
-    
-    This is the name 
+        <h1>SUMMARY</h1>
+        <div>
+            <p>Correct:</p>
+            <p>Wrong:</p>
+            <p>Questions answered:</p>
+            <p>Final Score : </p>
+        </div>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import Question from './Question';
-// import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router';
+import { BrowserRouter, Route, Switch, history } from 'react-router-dom';
 
 class QuestionsConatiner extends React.Component {
     constructor(props) {
@@ -45,7 +45,7 @@ class QuestionsConatiner extends React.Component {
   }; 
 
   loadSummary =() =>{
-    // this.props.history.push('/SummaryPage')
+     this.props.history.push('/SummaryPage')
   }
   loadNextQuestion = () =>{
     this.setState({
