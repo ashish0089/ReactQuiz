@@ -3,16 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import {Router, Route, Link, Switch} from 'react-router';
-import SummaryPage from './SummaryPage';
+// import {Router, Route, Link, Switch} from 'react-router';
+// import SummaryPage from './SummaryPage';
 
-ReactDOM.render((
-  <Switch>
-     <Route path = "/" component = {App}>
-        <Route path = "SummaryPage" component = {SummaryPage} />       
-     </Route>
-  </Switch>
-),
+ReactDOM.render(<App/>,
   document.getElementById('root')
 );
 
